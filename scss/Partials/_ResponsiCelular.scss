@@ -1,0 +1,119 @@
+@media (max-width: 550px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    .descuento {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .image-item {
+        width: 55%;
+        
+    }
+
+    .texto-somos {
+        font-size: 16px;
+    }
+
+    .quienesSomos {
+        padding: 15px;
+        font-size: 16px;
+        margin: 20px;
+    }
+
+    .burguer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-burguer {
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .card-burguer img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hamburguesa {
+        font-size: 16px;
+    }
+
+    .textoBurguer {
+        color: black;
+        margin-bottom: 10px;
+    }
+
+    .boton,
+    .botonorden {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    footer {
+        padding: 10px;
+
+        .nav-item {
+            margin: 5px;
+        }
+
+        .texto-somos {
+            color: rgb(241, 241, 241);
+            font-size: 16px;
+        }
+
+        .image-text-container {
+            display: flex;
+            flex-direction: column;
+            max-width: 90%;
+        }
+
+        .text-content {
+            max-width: 100%;
+            text-align: left;
+            padding: 0;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 0;
+            list-style-type: disc;
+        }
+
+        .botonorden {
+            margin-top: 10px;
+        }
+
+    }
+}

@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    border-bottom: 5px solid #c4d810;
+    font-family: 'Roboto', sans-serif;
+
+    .nav-item {
+        margin: 0 15px;
+
+        .nav-link {
+            color: #ffffff;
+            font-size: 16px;
+            padding: 10px 15px;
+            transition: background-color 0.3s, color 0.3s;
+
+            &.active {
+                background-color: #c4d810;
+                color: black;
+                border-radius: 5px;
+            }
+
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.1);
+                color: #0dee63;
+            }
+        }
+    }
+}

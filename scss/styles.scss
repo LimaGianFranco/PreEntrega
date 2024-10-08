@@ -1,0 +1,44 @@
+@import"../scss/Partials/ResponsiCelular";
+@import"../scss/Partials/cardBurguer";
+@import"../scss/Partials/infoBurguer";
+@import"../scss/Partials/quienessomos";
+@import"../scss/Partials/HeaderFooter";
+@import"../scss/Partials/modopago";
+
+html, body {
+    height: 100%;
+    margin: 0; 
+}
+
+body {
+    display: flex; 
+    flex-direction: column; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+main {
+    flex: 1; 
+}
+
+.imagenlogo {
+    margin: 10px;
+}
+.descuento {
+    height: 400px;
+    margin: 10px;
+    display: flex;
+
+    .image-item {
+        border-radius: 50px;
+        margin: 25px;
+        margin-top: 10px;
+    }
+}
+.imagenMarron {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
