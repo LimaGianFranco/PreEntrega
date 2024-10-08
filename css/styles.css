@@ -254,7 +254,7 @@
 }
 .nav .nav-item .nav-link:hover {
   background-color: rgba(255, 255, 255, 0.1);
-  color: #0dee63;
+  color: #c4d810;
 }
 
 .payment-options-container {
@@ -299,6 +299,12 @@
   margin-bottom: 10px;
 }
 
+.LOGO {
+  border-radius: 50%;
+  margin: 10px;
+  height: 100px;
+}
+
 html, body {
   height: 100%;
   margin: 0;
@@ -316,10 +322,6 @@ main {
   flex: 1;
 }
 
-.imagenlogo {
-  margin: 10px;
-}
-
 .descuento {
   height: 400px;
   margin: 10px;
@@ -329,13 +331,6 @@ main {
   border-radius: 50px;
   margin: 25px;
   margin-top: 10px;
-}
-
-.imagenMarron {
-  margin-top: 20px;
-  max-width: 100%;
-  height: auto;
-  display: block;
 }
 
 /*# sourceMappingURL=styles.css.map */

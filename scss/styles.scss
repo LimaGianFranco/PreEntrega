@@ -5,6 +5,11 @@
 @import"../scss/Partials/HeaderFooter";
 @import"../scss/Partials/modopago";
 
+.LOGO{
+    border-radius: 50%;
+    margin: 10px;
+    height: 100px;
+}
 html, body {
     height: 100%;
     margin: 0; 
@@ -22,9 +27,6 @@ main {
     flex: 1; 
 }
 
-.imagenlogo {
-    margin: 10px;
-}
 .descuento {
     height: 400px;
     margin: 10px;
@@ -35,10 +37,4 @@ main {
         margin: 25px;
         margin-top: 10px;
     }
-}
-.imagenMarron {
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;
-    display: block;
 }
