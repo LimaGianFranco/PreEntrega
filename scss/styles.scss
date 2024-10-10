@@ -31,6 +31,9 @@ main {
     height: 400px;
     margin: 10px;
     display: flex;
+    background-image: url('../imagenes/fondo.png'); 
+    background-size: cover;
+    background-position: center;
 
     .image-item {
         border-radius: 50px;

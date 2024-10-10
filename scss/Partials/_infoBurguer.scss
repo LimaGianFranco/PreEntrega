@@ -1,3 +1,6 @@
+$colortextoblanco:white;
+
+
 .container 
 {
     display: flex;
@@ -7,6 +10,9 @@
     width: 100%;
     box-sizing: border-box;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url('../imagenes/fondo.png'); 
+    background-size: cover;
+    background-position: center;
 
     .image-item {
         width: 30%;
@@ -30,17 +36,20 @@
             margin-bottom: 10px; 
             font-style: italic;
             font-weight: bold;
+            color: $colortextoblanco;
         }
 
         h4 {
             font-size: 18px;
             margin-bottom: 5px;
+            color: $colortextoblanco;
         }
 
         ul {
             padding-left: 20px;
             margin: 10px;
-            list-style-type: disc;         
+            list-style-type: disc;  
+            color: $colortextoblanco;       
         }
 
         .botonorden {
